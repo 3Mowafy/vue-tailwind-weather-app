@@ -25,7 +25,10 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  const leng = JSON.parse(localStorage.getItem("savedCities")).length;
+  let leng;
+  if (localStorage.length) {
+    leng = JSON.parse(localStorage.getItem("savedCities")).length;
+  }
   to.name === "home" && leng > 0
     ? (document.title = `${to.meta.title} || (${leng}) Cities Saved`)
     : (document.title = to.meta.title);
