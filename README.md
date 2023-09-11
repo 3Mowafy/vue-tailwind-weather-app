@@ -1,29 +1,37 @@
-# vue-weather-app
+# Vue-Weather-APP
 
-This template should help get you started developing with Vue 3 in Vite.
+The Local Weather allows you to track the current and future weather of cities of your choosing.
 
-## Recommended IDE Setup
+# Screenshot
+![ipad-pro-mockup](https://github.com/3Mowafy/vue-tailwind-weather-app/assets/98129284/6452e0fe-97de-499c-a998-db1aa170c27a)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Links
+Live Demo: [Click Here](https://vue-tailwind-weather-app.vercel.app/)<br>
+Project Files: [Click Here](https://github.com/3Mowafy/vue-tailwind-weather-app)
 
-## Customize configuration
+## Dependencies
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+| Name | Version     |
+| :-------- | :------- |
+| vue | `3.3.4` |
+| vue-router | `4.2.4` |
+| axios | `1.5.0` |
+| uid | `2.0.2` |
 
-## Project Setup
 
-```sh
-npm install
-```
+## Dev Dependencies
 
-### Compile and Hot-Reload for Development
+| Name | Version     |
+| :-------- | :------- |
+| tailwindcss | `3.3.3` |
+| autoprefixer | `10.4.15` |
+| postcss | `8.4.29` |
+| @vitejs/plugin-vue | `4.3.1` |
+| vite | `4.4.9` |
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
+## Author
+- [@Mohamed Mowafy](https://github.com/3Mowafy)
+  
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/momowafy)
 
-```sh
-npm run build
-```
