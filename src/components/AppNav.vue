@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 bg-weather-primary shadow-lg">
+  <header class="sticky top-0 bg-we-primary shadow-lg z-50">
     <nav
       class="container py-6 flex flex-col sm:flex-row items-center justify-between gap-3"
     >
@@ -113,3 +113,5 @@ const removeCity = () => {
   router.push({ name: "home" });
 };
 </script>
+
+<style scoped></style>

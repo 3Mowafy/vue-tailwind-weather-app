@@ -9,9 +9,9 @@
         class="w-full bg-transparent shadow-sm p-1 border-b focus:outline-none focus:border-we-secondary"
       />
 
-      <ul
+      <div
         v-if="searchResults"
-        class="absolute bg-we-secondary w-full shadow-md top-[70px] px-1 py-2"
+        class="absolute bg-we-secondary w-full shadow-md top-[70px] px-1 py-2 z-10"
       >
         <p v-if="searchError" class="text-center">
           Sorry, something went wrong, please try again.
@@ -22,17 +22,16 @@
         >
           No results match your query, try a different term.
         </p>
-        <template v-else>
-          <li
-            class="py-2 cursor-pointer"
-            v-for="searchResult of searchResults"
-            :key="searchResult.id"
-            @click="cityView(searchResult)"
-          >
-            {{ searchResult.place_name }}
-          </li>
-        </template>
-      </ul>
+        <p
+          v-else
+          class="py-2 cursor-pointer bg-we-secondary"
+          v-for="searchResult of searchResults"
+          :key="searchResult.id"
+          @click="cityView(searchResult)"
+        >
+          {{ searchResult.place_name }}
+        </p>
+      </div>
     </div>
 
     <div class="mt-3">

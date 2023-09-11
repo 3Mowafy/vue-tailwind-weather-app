@@ -3,7 +3,7 @@
     class="flex mb-3 p-5 bg-we-secondary rounded-md shadow-md cursor-pointer"
   >
     <div class="flex flex-col flex-1">
-      <h2 class="text-2xl">{{ city.city }}</h2>
+      <h2 class="text-xl">{{ city.city }}</h2>
       <p class="text-sm">{{ city.state }}</p>
     </div>
     <div class="flex flex-1">
