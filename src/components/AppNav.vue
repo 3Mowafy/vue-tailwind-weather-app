@@ -62,7 +62,6 @@
 import { ref } from "vue";
 import { RouterLink, useRouter, useRoute } from "vue-router";
 import { uid } from "uid";
-
 import BaseModal from "./BaseModal.vue";
 
 const router = useRouter();

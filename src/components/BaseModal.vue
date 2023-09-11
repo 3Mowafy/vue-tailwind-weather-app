@@ -8,7 +8,7 @@
         <Transition name="child">
           <div
             v-if="modalView"
-            class="bg-white mt-24 max-w-screen-md mx-auto p-4 rounded-lg"
+            class="bg-white mt-24 max-w-screen-md mx-auto p-4 rounded-lg max-h-[450px] overflow-y-auto"
           >
             <slot />
             <button
